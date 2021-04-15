@@ -1,7 +1,21 @@
 // on s'assure le que le DOM est chargé
 window.onload = () => { 
     // tout ce qui va suivre sera executé par chargement de la page
-    
+
+    // selectionner des elements par leurs id
+    let section = document.getElementById('section1');
+
+    // selectionner des elements par leurs class
+    let invalidFeedback = document.getElementsByClassName('invalid-feedback');
+
+    // selectionner des elements par leurs balises
+    let figure = document.getElementsByTagName('figure');
+
+    // selectionner des elements par sélecteurs css
+    let figcaption = document.querySelector('figcaption'); // selectionne le 1er qu'il trouve
+
+    let figcaptions = document.querySelectorAll('figcaption');
+    console.log(figcaptions);
 }
 
 
