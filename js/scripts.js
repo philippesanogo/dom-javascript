@@ -14,8 +14,8 @@ window.onload = () => {
     // selectionner des elements par sélecteurs css
     let figcaption = document.querySelector('figcaption'); // selectionne le 1er qu'il trouve
 
-    let span = document.querySelectorAll('div span');
-    console.log(span);
+    let placeholder = document.querySelectorAll('[placeholder=Email]');
+    console.log(placeholder);
 }
 
 
