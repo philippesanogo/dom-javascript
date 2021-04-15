@@ -14,8 +14,13 @@ window.onload = () => {
     // selectionner des elements par sélecteurs css
     let figcaption = document.querySelector('figcaption'); // selectionne le 1er qu'il trouve
 
-    let placeholder = document.querySelectorAll('[placeholder=Email]');
-    console.log(placeholder);
+    let span = document.querySelector('span');
+    console.log(span);
+
+    // modifier couleur de span en bleu
+    span.style.backgroundColor = "blue";
+
+
 }
 
 
