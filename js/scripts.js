@@ -1,3 +1,69 @@
+// on s'assure le que le DOM est chargé
+window.onload = () => { 
+    // tout ce qui va suivre sera executé par chargement de la page
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // On s'assure que le DOM est chargé
 window.onload = () => {
     // Exécuté après le chargement de la page
@@ -14,7 +80,7 @@ window.onload = () => {
     // Sélectionner des éléments par sélecteurs CSS
     let span = document.querySelector("div span") // Sélectionne le 1er résultat
     let spans = document.querySelectorAll("div span") // Sélectionne tous les résultats
-    
+
 
     // Modifier le CSS d'un élément
     span.style.backgroundColor = "blue"
@@ -61,6 +127,7 @@ function verifPseudo(){
         this.classList.remove("is-valid")
     }else{
         this.classList.add("is-valid")
-        this.classList.remove("is-invalid") 
+        this.classList.remove("is-invalid")
     }
 }
+*/
