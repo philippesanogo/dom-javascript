@@ -14,12 +14,16 @@ window.onload = () => {
     // selectionner des elements par sélecteurs css
     let figcaption = document.querySelector('figcaption'); // selectionne le 1er qu'il trouve
 
-    let span = document.querySelector('span');
-    console.log(span);
+    let span = document.querySelector('div:nth-child(6) span');
+
 
     // modifier couleur de span en bleu
     span.style.backgroundColor = "blue";
 
+    // modifier le contenu de span de X en Y
+    span.innerText = "Y";
+
+    console.log(span);
 
 }
 
