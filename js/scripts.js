@@ -8,8 +8,7 @@ window.onload = () => {
     // selectionner des elements par leurs class
     let invalidFeedback = document.getElementsByClassName('invalid-feedback');
 
-    // selectionner des elements par leurs balises
-    let figure = document.getElementsByTagName('figure');
+    // selectionner des elements par leurs balises let figure = document.getElementsByTagName('figure');
 
     // selectionner des elements par sélecteurs css
     let figcaption = document.querySelector('figcaption'); // selectionne le 1er qu'il trouve
